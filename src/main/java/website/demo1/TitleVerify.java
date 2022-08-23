@@ -26,7 +26,7 @@ public class TitleVerify {
 	{
 		driver.get("http://3.111.53.55/");
 		String str=driver.getTitle();
-		Assert.assertEquals(str,"Jenksins");
+		Assert.assertEquals(str,"Jenksinss");
 		System.out.println(str);
 		
 	}
